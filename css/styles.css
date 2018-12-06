@@ -1,0 +1,130 @@
+body {
+    margin: 0 auto;
+}
+
+.nav-bar {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.nav-list {
+    float: right;
+    margin-top: 22px;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+}
+
+.list-item {
+    list-style-type: none;
+    background-color: #F8010A;
+    height: 50px;
+    width: 50px;
+    float: left;
+    border: 3px solid #FEFE00;
+    border-radius: 50%;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.list-item a {
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.list-item:hover {
+    background-color: #FEFE00;
+    border: 5px solid #F8010A;
+}
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    background-image: url('../img/jpsitehero.jpg');
+}
+
+.hero-text-box {
+    background-color: rgb(0, 0, 0, 30%);
+    height: 50px;
+    width: 350px;
+    position: absolute;
+    top: 300px;
+    bottom: 100px;
+    left: 50px;
+}
+
+.hero-text {
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 17px;
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.img-text, .content-img1 {
+    width: 40%;
+    border: 3px solid red;
+    margin-left: 6%;
+    margin-top: 10px;
+    float: left;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+
+
+.footer {
+    background-color: #000000;
+    height: 125px;
+    width: 100%;
+    clear: both;
+    position: relative;
+}
+
+.copyright {
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+.social {
+    position: absolute;
+    color: #FFFFFF;
+    left: 2%;
+    top: 30%;
+}
+
+.fab {
+    font-size: 54px;
+}
+
+.fa-facebook {  
+    color: #3B5998;
+}
+
+.fa-instagram {
+    color: red;
+}
+
+.input {
+    position: absolute;
+    right: 2%;
+    top: 45%;
+}
+

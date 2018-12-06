@@ -1,0 +1,16 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.contact-info{
+    margin: 115px 15px 15px 10px;
+}
+
+.row {
+    width: 100%;
+}
+
+.form {
+    margin-top: 10px;
+}
